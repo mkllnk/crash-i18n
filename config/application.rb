@@ -58,5 +58,10 @@ module CrashI18n
 
     # Version of your assets, change this if you want to expire all your assets
     config.assets.version = '1.0'
+
+    # This config crashes if environment variables are missing
+    config.i18n.default_locale = ENV["LOCALE"]
+    config.i18n.available_locales = [config.i18n.default_locale]
+    # available_locales is now [nil]
   end
 end
