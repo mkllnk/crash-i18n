@@ -2,6 +2,10 @@ source 'https://rubygems.org'
 
 gem 'rails', '3.2.21'
 
+# Gems to be tested
+gem 'rails-i18n', '~> 3.0.0'
+gem 'i18n', '~> 0.6.11'
+
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
